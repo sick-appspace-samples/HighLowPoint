@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+    <application name="HighLowPoint">
+        <crown name="HighLowPoint">
+            <desc>user script</desc>
+            <serves/>
+        </crown>
+        <meta key="author">AppSpace Sample</meta>
+        <meta key="version">1.0</meta>
+        <meta key="licensed">false</meta>
+        <meta key="priority">low</meta>
+        <meta key="copy-protected">false</meta>
+        <meta key="read-protected">false</meta>
+        <entry path="pages" default="AppSpaceViewers-2.4.0.1.msdd">
+            <file type="application/zip">AppSpaceViewers-2.4.0.1.msdd</file>
+        </entry>
+        <entry path="resources">
+            <file type="application">image_4.json</file>
+        </entry>
+        <entry path="scripts" default="HighLowPoint.lua">
+            <file type="text/x-lua">helpers.lua</file>
+            <file type="text/x-lua">HighLowPoint.lua</file>
+        </entry>
+    </application>
+</manifest>
