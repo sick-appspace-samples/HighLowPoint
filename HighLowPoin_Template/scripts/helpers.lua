@@ -41,7 +41,7 @@ local function getTextDeco(rgba, size, xPos, yPos)
   return deco
 end
 
--- Get x coordinate
+---Get x coordinate
 local function getX(coordinate)
   if type(coordinate) == 'userdata' then
     return coordinate:getX()
@@ -50,7 +50,7 @@ local function getX(coordinate)
   end
 end
 
--- Make a profile into polylies
+---Make a profile into polylies
 local function profileToPolylines(
   profile,
   closed,
@@ -117,7 +117,7 @@ local function profileToPolylines(
   return polylines
 end
 
--- Round integers
+---Round integers
 local function round(n)
   return math.floor(n * 100) / 100
 end
